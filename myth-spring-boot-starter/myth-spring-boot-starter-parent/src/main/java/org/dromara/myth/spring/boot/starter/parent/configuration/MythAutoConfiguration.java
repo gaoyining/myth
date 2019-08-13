@@ -42,7 +42,7 @@ public class MythAutoConfiguration {
     private final MythConfigProperties mythConfigProperties;
 
     /**
-     * Instantiates a new Myth auto configuration.
+     * 实例化一个新的神话自动配置。
      *
      * @param mythConfigProperties the myth config properties
      */

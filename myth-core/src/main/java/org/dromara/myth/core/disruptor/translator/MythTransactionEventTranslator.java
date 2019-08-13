@@ -31,7 +31,7 @@ public class MythTransactionEventTranslator implements EventTranslatorOneArg<Myt
     private int type;
 
     /**
-     * Instantiates a new Myth transaction event translator.
+     * 实例化一个新的Myth事务事件转换器。
      *
      * @param type the type
      */

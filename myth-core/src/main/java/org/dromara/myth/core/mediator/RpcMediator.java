@@ -53,7 +53,7 @@ public class RpcMediator {
     }
 
     /**
-     * Acquire hmily transaction context.
+     * 获取hmily事务上下文。
      *
      * @param rpcAcquire the rpc acquire
      * @return the hmily transaction context

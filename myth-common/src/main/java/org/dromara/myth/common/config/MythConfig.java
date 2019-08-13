@@ -45,7 +45,7 @@ public class MythConfig {
     private String repositorySupport = "db";
 
     /**
-     * Whether to automatically restore 1 note When the initiator for affairs (the caller/consumer), true, here need to fill in the default is false, in order to save resources, don't open a thread pool scheduling.
+     * 是否自动恢复1注释当启动器为事务（调用者/消费者）时，为true，这里需要填写的默认值为false，为了节省资源，不要打开线程池调度。
      */
     private Boolean needRecover = false;
 
@@ -55,7 +55,7 @@ public class MythConfig {
     private int scheduledThreadMax = Runtime.getRuntime().availableProcessors() << 1;
 
     /**
-     * Scheduling time cycle unit of seconds.
+     * 以秒为单位调度时间周期.
      */
     private int scheduledDelay = 60;
 
@@ -65,7 +65,7 @@ public class MythConfig {
     private int retryMax = 3;
 
     /**
-     * Transaction recovery time interval unit seconds (note This time represents the local transactions create time after how many seconds).
+     * 事务恢复时间间隔单位秒（注意此时间表示本地事务创建时间后的秒数）。
      */
     private int recoverDelayTime = 60;
 

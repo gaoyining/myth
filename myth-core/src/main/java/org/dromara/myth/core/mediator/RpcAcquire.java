@@ -18,7 +18,7 @@
 package org.dromara.myth.core.mediator;
 
 /**
- * The interface Rpc acquire.
+ * 接口Rpc获取。
  *
  * @author xiaoyu(Myth)
  */
